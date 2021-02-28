@@ -10,16 +10,16 @@ function hexFromRGB(r, g, b) {
   return hex.join("").toUpperCase(); // объединение элементов массива в одну строку, вывод строки с верним регистром
 }
 
-// функция отрисовки окна
+//функция отрисовки окна
 function refreshSwatch() {
   let red = $("#red").slider("value"), //получает значение рукоятки
     green = $("#green").slider("value"),
     blue = $("#blue").slider("value"),
     hex = hexFromRGB(red, green, blue);
-  $("#swatch").css("background-color", "#" + hex); //вставляем комбинироанный цвет в окно
+  $("#swatch").css("background-color", "#" + hex); //вставляем комбинированный цвет в окно
 }
 
-// функция отрисовки текста
+//функция отрисовки текста
 function refreshText() {
   let red = $("#scarlet").slider("value"),
     green = $("#verdant").slider("value"),
