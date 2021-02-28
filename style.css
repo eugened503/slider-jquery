@@ -1,0 +1,126 @@
+#red,
+#green,
+#blue {
+  float: left;
+  clear: left;
+  width: 300px;
+  margin: 15px;
+}
+#swatch {
+  width: 200px;
+  height: 124px;
+}
+#red .ui-slider-range {
+  background: #ef2929;
+}
+#red .ui-slider-handle {
+  border-color: #ef2929;
+}
+#green .ui-slider-range {
+  background: #8ae234;
+}
+#green .ui-slider-handle {
+  border-color: #8ae234;
+}
+#blue .ui-slider-range {
+  background: #729fcf;
+}
+#blue .ui-slider-handle {
+  border-color: #729fcf;
+}
+
+#scarlet,
+#verdant,
+#cyan {
+  float: left;
+  clear: left;
+  width: 300px;
+  margin: 15px;
+}
+
+#scarlet .ui-slider-range {
+  background: #ef2929;
+}
+#scarlet .ui-slider-handle {
+  border-color: #ef2929;
+}
+#verdant .ui-slider-range {
+  background: #8ae234;
+}
+#verdant .ui-slider-handle {
+  border-color: #8ae234;
+}
+#cyan .ui-slider-range {
+  background: #729fcf;
+}
+#cyan .ui-slider-handle {
+  border-color: #729fcf;
+}
+
+#text {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.body-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 0;
+  margin: 0;
+  padding: 8px;
+}
+
+.color-field {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#height {
+  height: 20px;
+}
+
+#paragraph {
+  font-size: medium;
+}
+
+.button-color {
+  font-size: 15px;
+  width: 68px;
+  height: 33px;
+  display: inline-block;
+  font-family: arial, sans-serif;
+  color: rgb(68, 68, 68);
+  text-decoration: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all 0.218s ease 0s;
+}
+
+.button-color:hover {
+  color: rgb(24, 24, 24);
+  border: 1px solid rgb(198, 198, 198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.button-color:active {
+  color: rgb(51, 51, 51);
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(238, 238, 238)
+    linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+.button-background {
+  width: 155px;
+  color: white;
+  background: #4072fe;
+}
